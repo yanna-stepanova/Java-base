@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE order
+        [
+                <!ELEMENT order (userId,product,creationDate)>
+                <!ELEMENT userId (#PCDATA)>
+                <!ELEMENT product (productId, productName, price, quantity, category)>
+                <!ELEMENT productId (#PCDATA)>
+                <!ELEMENT productName (#PCDATA)>
+                <!ELEMENT price (#PCDATA)>
+                <!ELEMENT quantity (#PCDATA)>
+                <!ELEMENT category (#PCDATA)>
+                <!ELEMENT creationDate (#PCDATA)>
+
+                <!ATTLIST order id CDATA #REQUIRED>
+        ] >
+
+<order id="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="order.xsd">
+
+    <userId>1</userId>
+    <product>
+        <productId>1</productId>
+        <productName>iPad</productName>
+        <price>199.00</price>
+        <quantity>5</quantity>
+        <category>Music</category>
+    </product>
+    <creationDate>20-05-08</creationDate>
+</order>
+
