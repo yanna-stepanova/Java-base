@@ -30,7 +30,7 @@ public class AppCompare {
         System.out.println("List:" + carList);
 
         Comparator<Car> comparator2 = new CarCompareVolume();
-        Set<Car> carsSet = new TreeSet<>(comparator2);
+        Set<Car> carsSet = new TreeSet<Car>(comparator2);
         carsSet.addAll(carList);
         System.out.println("TreeSet:" + carsSet);
     }

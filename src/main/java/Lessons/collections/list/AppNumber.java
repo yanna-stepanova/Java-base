@@ -12,7 +12,7 @@ import java.util.List;
 
 public class AppNumber {
     public static void main(String[] args) {
-        List<Integer> integers = new ArrayList<>();
+        List<Integer> integers = new ArrayList<Integer>();
         integers.add(1);
         integers.add(5);
         integers.add(8);

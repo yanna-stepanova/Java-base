@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MyHashMap {
     public HashMap<String, Integer> getWordsWithLength(List<String> words) {
-        HashMap<String, Integer> myMap = new HashMap<>();
+        HashMap<String, Integer> myMap = new HashMap<String, Integer>();
         for (String str : words) {
             myMap.put(str, str.length());
         }
@@ -13,7 +13,7 @@ public class MyHashMap {
     }
 
     public HashMap<String, Integer> getCountedWords(List<String> words) {
-        HashMap<String, Integer> mapDupl = new HashMap<>();
+        HashMap<String, Integer> mapDupl = new HashMap<String, Integer>();
         for (int i = 0; i < words.size(); i++) {
             int count = 0;
             for (int j = i; j < words.size(); j++) {

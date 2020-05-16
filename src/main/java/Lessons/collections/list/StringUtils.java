@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class StringUtils {
     public List<String> getDuplicates(List<String> words) {
-        List<String> listDupl = new ArrayList<>();
+        List<String> listDupl = new ArrayList<String>();
         for (int j = 0; j < words.size(); j++) {
             int count = 0;
             for (int i = j; i < words.size(); i++) {
@@ -37,7 +37,7 @@ public class StringUtils {
     }
 
     public Set<String> getHashDuplicates(List<String> words) {
-        Set<String> hashDupl = new HashSet<>();
+        Set<String> hashDupl = new HashSet<String>();
         for (int i = 0; i < words.size(); i++) {
             int count = 0;
             for (int j = i; j < words.size(); j++) {

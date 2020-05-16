@@ -1,6 +1,6 @@
 package HW.hw5.shape.polygon.tetragon;
 
-import HomeWorks.hw5.shape.polygon.Polygon;
+import HW.hw5.shape.polygon.Polygon;
 
 public class Tetragon extends Polygon {
     private int parallelPairs;
