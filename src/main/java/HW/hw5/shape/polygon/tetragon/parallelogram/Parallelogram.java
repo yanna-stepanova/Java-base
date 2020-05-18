@@ -1,6 +1,6 @@
 package HW.hw5.shape.polygon.tetragon.parallelogram;
 
-import HomeWorks.hw5.shape.polygon.tetragon.Tetragon;
+import HW.hw5.shape.polygon.tetragon.Tetragon;
 
 public class Parallelogram extends Tetragon {
     private int aSide;

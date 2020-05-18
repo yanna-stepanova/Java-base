@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car brand="Toyota" model="Camry">
+    <color>Red</color>
+    <max-speed unit="km/h">220</max-speed>
+    <engine>
+        <volume unit="liter">2.5</volume>
+        <!--Revolutions per minute-->
+        <rpm>6600</rpm>
+        <compression-ratio>11.8:1</compression-ratio>
+    </engine>
+    <seating-capacity value="5"/>
+</car>

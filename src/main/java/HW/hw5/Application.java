@@ -1,6 +1,6 @@
 package HW.hw5;
 
-import HomeWorks.hw5.shape.polygon.tetragon.parallelogram.Square;
+import HW.hw5.shape.polygon.tetragon.parallelogram.Square;
 
 public class Application {
     public static void main(String[] args) {
