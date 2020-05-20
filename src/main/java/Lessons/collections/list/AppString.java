@@ -11,7 +11,7 @@ import java.util.List;
 
 public class AppString {
     public static void main(String[] args) {
-        List<String> strings = new ArrayList<>();
+        List<String> strings = new ArrayList<String>();
         strings.add("one");
         strings.add("two");
         strings.add("three");

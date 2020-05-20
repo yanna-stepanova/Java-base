@@ -8,7 +8,7 @@ import java.util.TreeSet;
 
 public class AppTree {
     public static void main(String[] args) {
-        Set<String> stringSet= new TreeSet<>();
+        Set<String> stringSet= new TreeSet<String>();
         stringSet.add("Olga");
         stringSet.add("Elena");
         stringSet.add("Anna");
