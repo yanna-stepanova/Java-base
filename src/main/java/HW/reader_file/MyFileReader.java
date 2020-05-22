@@ -24,8 +24,14 @@ public class MyFileReader {
                     count++;
                 }
             }
+
             map.put((i + 1), count);
         }
+
+        if (Character.isWhitespace(stringBuffer.charAt(stringBuffer.length() - 1))) {
+            map.put(map.size() + 1, 0);
+        }
+
         System.out.println("total rows amount: " + map.size());
         for (Map.Entry<Integer, Integer> pair : map.entrySet()) {
             System.out.println("row #" + pair.getKey() + " has " + pair.getValue() + " words.");
