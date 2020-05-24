@@ -12,9 +12,14 @@ import java.util.concurrent.Executors;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ExecutorService executorService= Executors.newFixedThreadPool(2);
-        while (scanner.nextInt()!=0){
-                executorService.submit(new Task(scanner.nextInt()));
+        ExecutorService executorService= Executors.newFixedThreadPool(4);
+        while (scanner.hasNext()) {
+            int currentAnswer = scanner.nextInt();
+            if (currentAnswer == 0) {
+                break;
+            } else {
+                executorService.submit(new Task(currentAnswer));
+            }
         }
         System.out.println("Finished!");
         executorService.shutdown();
